@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(mkdir -p /c/Users/rodrigos2/Downloads/cursor-projects/cursor-agentguide/backend)",
+      "Bash(mkdir -p /c/Users/rodrigos2/Downloads/cursor-projects/cursor-agentguide/frontend/src/components/nodes)",
+      "Bash(mkdir -p /c/Users/rodrigos2/Downloads/cursor-projects/cursor-agentguide/frontend/src/hooks)",
+      "Bash(python -c \":*)",
+      "Bash(curl -s http://localhost:8000/api/debug)",
+      "Bash(curl -s http://localhost:8000/api/health)",
+      "Bash(curl -s http://localhost:8001/api/health)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill /PID 38320 /F)",
+      "Bash(taskkill /PID 4760 /F)",
+      "Bash(taskkill /PID 18408 /F)",
+      "Bash(taskkill /PID 45196 /F 2)",
+      "Bash(/dev/null echo:*)",
+      "Bash(taskkill /IM python.exe /F 2)",
+      "Bash(taskkill /IM python.exe /F)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(cmd /c \"taskkill /IM python.exe /F\")",
+      "Bash(cmd /c \"netstat -ano | findstr :8000\")",
+      "Bash(cmd //c \"taskkill /IM python.exe /F 2>&1\")",
+      "Bash(cmd //c \"netstat -ano | findstr :8000\")",
+      "Bash(timeout 180 python -c \":*)"
+    ]
+  }
+}
